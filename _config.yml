@@ -1,0 +1,218 @@
+url: http://www.theswarmlab.com
+#baseurl: /agency-jekyll-theme/
+
+# Site settings
+title: SCEE Lab
+email: #
+description: "欢迎来到袁增伟教授课题组，我们专注于物质循环及其资源环境效益研究。"
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: ed564b
+  secondary: f96b61
+  secondary-dark: 333
+
+# Team names, titles and social links
+people:
+- name: 袁增伟
+  pic: yzw
+  position: 博士、教授、博士生导师
+  social:
+    - title: twitter
+      url: #
+    - title: google-plus
+      url: #
+    - title: github
+      url: #
+    - title: linkedin
+      url: #
+
+- name: 盛虎
+  pic: sh
+  position: 副研究员
+  social:
+    - title: link
+      url: #
+
+- name: 华新
+  pic: hx
+  position: 讲师
+  social:
+    - title: link
+      url: #
+    - title: twitter
+      url: #
+      
+- name: 庞爱萍
+  pic: pap
+  position: 助理研究员
+  social:
+    - title: twitter
+      url: #
+      
+- name: 陈清清
+  pic: cqq
+  position: 博士后
+  social:
+    - title: linkedin
+      url: #
+
+- name: 蒋松演
+  pic: jsy
+  position: 博士生
+  social:
+    - title: twitter
+      url: #
+    - title: github
+      url: #
+    - title: linkedin
+      url: #
+
+- name: 张优
+  pic: zy
+  position: 博士生
+  social:
+    - title: twitter
+      url: #
+    - title: tumblr
+      url: #
+    - title: link
+      url: #
+
+- name: 刘雪薇
+  pic: lxw
+  position: 博士生
+  social:
+    - title: linkedin
+      url: #
+
+- name: 庄裕杰
+  pic: zyj
+  position: 博士生
+  social:
+    - title: linkedin
+      url: #
+      
+- name: 吴应林
+  pic: wyl
+  position: (<a href="http://www.stu.edu.cn/">汕头大学</a>)联合培养博士
+  social:
+    - title: linkedin
+      url: #
+      
+- name: 潘笑
+  pic: px
+  position: 研究生
+  social:
+    - title: linkedin
+      url: #
+      
+- name: 王婷
+  pic: wt
+  position: 研究生
+  social:
+    - title: linkedin
+      url: #
+      
+- name: 王蕾
+  pic: wl
+  position: 研究生
+  social:
+    - title: linkedin
+      url: #
+
+- name: 季佳莹
+  pic: jjy
+  position: 研究生
+  social:
+    - title: linkedin
+      url: #
+      
+- name: 陈颖
+  pic: cy
+  position: 研究生
+  social:
+    - title: linkedin
+      url: #
+      
+- name: 罗涛
+  pic: lt
+  position: 研究生
+  social:
+    - title: linkedin
+      url: #
+      
+- name: 左璇
+  pic: zx
+  position: 研究生
+  social:
+    - title: linkedin
+      url: #
+      
+- name: 花慧
+  pic: hh
+  position: 研究生
+  social:
+    - title: linkedin
+      url: #
+      
+- name: 廖宇星
+  pic: lyx
+  position: 本科生
+  social:
+    - title: github
+      url: https://github.com/vvstars
+    - title: facebook
+      url: #
+    - title: link
+      url: http://liaoyuxing.space
+      
+- name: 李兴祥
+  pic: lxx
+  position: 本科生
+  social:
+    - title: linkedin
+      url: #
+      
+- name: 张子瑞
+  pic: zzr
+  position: 本科生
+  social:
+    - title: linkedin
+      url: #
+      
+#毕业成员
+people_old:
+- name: 刘欣
+  pic: lx
+  position: 博士毕业生
+  social:
+    - title: twitter
+      url: #
+    - title: link
+      url: #
+      
+
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: #
+  - title: google-plus
+    url: #
+  - title: github
+    url: https://github.com/sceenju
+  - title: linkedin
+    url: #
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 栖霞区仙林大道163号南京大学仙林校区环境学院
+  - line: 中国江苏省南京市
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+kramdown:
+  syntax_highlighter: rouge
+highlighter: rouge
