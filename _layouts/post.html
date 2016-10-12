@@ -52,7 +52,18 @@
         <hr>
 
         {% include comments.html %}
-
+        {% if page.comments and site.duoshuo_username %}
+        <section id="disqus_thread" class="animated fadeInUp">
+          <div class="comment">
+              <div class="ds-thread"
+                  data-thread-key="{{page.id}}"
+                  data-title="{{page.title}}"
+                  data-url="{{site.url}}{{site.baseurl}}{{page.url}}" >
+              </div>
+          </div>
+        </section>
+                       <!-- /#duoshuo_thread -->
+        {% endif %}
     </div>
 
 </section>
@@ -80,18 +91,7 @@
     </div>
                 <!-- 多说 Share end-->
 {% endif %}
-{% if page.comments and site.duoshuo_username %}
-<section id="disqus_thread" class="animated fadeInUp">
-  <div class="comment">
-      <div class="ds-thread"
-          data-thread-key="{{page.id}}"
-          data-title="{{page.title}}"
-          data-url="{{site.url}}{{site.baseurl}}{{page.url}}" >
-      </div>
-  </div>
-</section>
-               <!-- /#duoshuo_thread -->
-{% endif %}
+
 {% include rss_footer.html %}
 {% include footer.html %}
 {% include js.html %}
