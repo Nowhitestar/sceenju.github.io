@@ -176,12 +176,7 @@ people:
     - title: linkedin
       url: #
 
-- name: 张子瑞
-  pic: zzr
-  position: 本科生
-  social:
-    - title: linkedin
-      url: #
+
 
 #毕业成员
 people_old:
@@ -193,7 +188,12 @@ people_old:
       url: #
     - title: link
       url: #
-
+- name: 张子瑞
+  pic: zzr
+  position: 本科生
+  social:
+    - title: linkedin
+      url: #
 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
