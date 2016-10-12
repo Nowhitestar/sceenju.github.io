@@ -8,6 +8,7 @@ category:
     - blog
     - r
 published: true
+comments: ture
 
 ---
 

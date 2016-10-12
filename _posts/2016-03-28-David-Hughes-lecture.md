@@ -7,6 +7,7 @@ type: post
 category:
     - blog
 published: true
+comments: ture
 
 ---
 

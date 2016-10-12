@@ -1,16 +1,19 @@
-url: #
-baseurl: 
+url: http://sceenju.github.io
+baseurl:
 # Site settings
-title: SCEE Lab
+title: 袁增伟教授课题组
 email: #
 description: "欢迎来到袁增伟教授课题组，我们专注于物质循环及其资源环境效益研究。"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: ed564b
-  secondary: f96b61
+  primary: 4bed88
+  secondary: 61f98f
   secondary-dark: 333
 
+# duoshuo
+duoshuo_username:   vvstars
+duoshuo_share:      false
 # Team names, titles and social links
 people:
 - name: 袁增伟
@@ -41,14 +44,14 @@ people:
       url: #
     - title: twitter
       url: #
-      
+
 - name: 庞爱萍
   pic: pap
   position: 助理研究员
   social:
     - title: twitter
       url: #
-      
+
 - name: 陈清清
   pic: cqq
   position: 博士后
@@ -91,28 +94,28 @@ people:
   social:
     - title: linkedin
       url: #
-      
+
 - name: 吴应林
   pic: wyl
   position: (<a href="http://www.stu.edu.cn/">汕头大学</a>)联合培养博士
   social:
     - title: linkedin
       url: #
-      
+
 - name: 潘笑
   pic: px
   position: 研究生
   social:
     - title: linkedin
       url: #
-      
+
 - name: 王婷
   pic: wt
   position: 研究生
   social:
     - title: linkedin
       url: #
-      
+
 - name: 王蕾
   pic: wl
   position: 研究生
@@ -126,35 +129,35 @@ people:
   social:
     - title: linkedin
       url: #
-      
+
 - name: 陈颖
   pic: cy
   position: 研究生
   social:
     - title: linkedin
       url: #
-      
+
 - name: 罗涛
   pic: lt
   position: 研究生
   social:
     - title: linkedin
       url: #
-      
+
 - name: 左璇
   pic: zx
   position: 研究生
   social:
     - title: linkedin
       url: #
-      
+
 - name: 花慧
   pic: hh
   position: 研究生
   social:
     - title: linkedin
       url: #
-      
+
 - name: 廖宇星
   pic: lyx
   position: 本科生
@@ -165,21 +168,21 @@ people:
       url: #
     - title: link
       url: http://liaoyuxing.space
-      
+
 - name: 李兴祥
   pic: lxx
   position: 本科生
   social:
     - title: linkedin
       url: #
-      
+
 - name: 张子瑞
   pic: zzr
   position: 本科生
   social:
     - title: linkedin
       url: #
-      
+
 #毕业成员
 people_old:
 - name: 刘欣
@@ -190,7 +193,7 @@ people_old:
       url: #
     - title: link
       url: #
-      
+
 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
