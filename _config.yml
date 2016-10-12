@@ -7,12 +7,12 @@ description: "欢迎来到袁增伟教授课题组，我们专注于物质循环
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 4bed88
-  secondary: 61f98f
+  primary: 5d9940
+  secondary: 568c3b
   secondary-dark: 333
 
 # duoshuo
-duoshuo_username:   vvstars
+duoshuo_username:   sceenju
 duoshuo_share:      false
 # Team names, titles and social links
 people:
