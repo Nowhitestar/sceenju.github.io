@@ -741,6 +741,7 @@ footer ul.quicklinks {
 
 ul.social-buttons {
     margin-bottom: 0;
+    text-align: center;
 }
 
 ul.social-buttons li a {
