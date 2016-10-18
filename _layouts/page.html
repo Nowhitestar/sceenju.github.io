@@ -8,7 +8,7 @@
 {% include nav_nofront.html %}
 
 <div class="home">
-    <section class="bg-white">
+    <section class="bg-white post">
         <div class="entry">
 
             <h2>{{ page.title }}</h2>
@@ -19,12 +19,30 @@
             {{ content }}
 
         </div>
+        <button class="anchor"><i class="fa fa-anchor"></i></button>
+        <div class="right">
+        <div class="wrap">
+
+            <!-- Content -->
+            <div class="side content">
+                <div>
+                    Content
+                </div>
+                <ul id="content-side" class="content-ul" style="margin-left:2em">
+                </ul>
+            </div>
+            <!-- 其他div框放到这里 -->
+            <!-- <div class="side">bbbb</div> -->
+        </div>
+    </div>
     </section>
 </div>
 
 {% include rss_footer.html %}
 {% include footer.html %}
+    <script src="{{ "/js/pageContent.js" | prepend: site.baseurl }}"></script>
 {% include js.html %}
+    {% include backToTop.html %}
 
 </body>
 </html>

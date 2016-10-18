@@ -9,7 +9,7 @@ category:
     - rvspython
     - r
 published: true
-
+comments: ture
 ---
 
 **Text by:** Simon Garnier ([www.theswarmlab.com](http://www.theswarmlab.com) / [@sjmgarnier](http://twitter.com/sjmgarnier))
@@ -21,6 +21,9 @@ published: true
 Document generated with [RStudio](http://www.rstudio.com), [knitr](http://yihui.name/knitr/), and [pandoc](http://johnmacfarlane.net/pandoc/). Python figures generated with [iPython Notebook](http://ipython.org/notebook.html).
 
 ---
+
+* content
+{:toc}
 
 #### Foreword ####
 

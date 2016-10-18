@@ -1,5 +1,5 @@
 li {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.75;
 }
 
@@ -12,7 +12,7 @@ li {
     font-size: 90%;
     padding-left: 12px;
     padding-right: 12px;
-    color: #{{ site.color.secondary-dark }};
+    color: #{{ site.color.navheader-color }};
 }
 
 @media(min-width:768px) {
@@ -24,7 +24,6 @@ li {
 .dropdown:hover .dropdown-menu {
     display: block;
 }
-
 .entry {
     width: 90%;
     max-width: 768px;
@@ -33,16 +32,17 @@ li {
     text-align: justify;
 }
 
+
 .lab-name {
     font-family: "Ubuntu", "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-style: normal;
     text-transform: capitalize;
     font-weight: 500;
-    color: #{{ site.color.secondary-dark }};
+    color: #{{ site.color.labname-color }};
 }
 
 .intro-lead-in {
-    color: #{{ site.color.secondary-dark }};
+    color: #{{ site.color.labname-color }};
 }
 
 @media(min-width:768px) {
@@ -57,9 +57,78 @@ section.blog {
     padding-bottom: 50px;
 }
 
-section.post {
-    padding-bottom: 10px;
+
+.post {
+    box-sizing: border-box;
+    margin-top: 175px;
+    margin-left: 25%;
+    width: 1170px;
+    display: inline-block;
 }
+.post .entry {
+    width: 75%;
+    float: left;
+    max-width: 768px;
+    margin:0 auto;
+    text-align: justify;
+}
+.right {
+        float: left;
+        width: 25%;
+        padding-left: 20px;
+    margin-top: 150px;
+        top: 0;
+}
+.right .fixed {
+            position: fixed;
+            top: 20px;
+    margin-top: 50px;
+        }
+.right .scroll-bottom {
+            position: absolute;
+            bottom: 190px;
+        }
+.right .side {
+            box-sizing: border-box;
+            background-color: #ffffff;
+            
+            padding-bottom: 1px;
+            -ms-word-break: break-all;
+            word-break: break-all;
+            /* Non standard for webkit */
+            word-break: break-word;
+            -webkit-hyphens: auto;
+            -moz-hyphens: auto;
+            -ms-hyphens: auto;
+            hyphens: auto;
+}
+.right .side div {
+                padding: 15px 15px;
+
+                margin: 1em 4em;
+                border-bottom: 1px solid #c0c0c0;
+                font-size: 20px;
+                font-weight: bold;
+            }
+.right a {
+                color: #4d6dad;
+                transition: 0.5s ease;
+                &:hover {
+                    color: #223253;
+                }
+            }
+        }
+.right content-ul {
+            overflow-y: auto;
+            padding-right: 10px;
+            line-height: 1.8;
+    padding-left: 50px;
+}
+.right ul {
+                padding-left: 50px;
+                padding-right: 20px;
+            }
+
 
 section.map {
     padding-top: 10px;

@@ -3,6 +3,8 @@ layout: page
 title: 获奖荣誉
 
 ---
+* content
+{:toc}
 
 #### 奖状
 

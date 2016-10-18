@@ -6,8 +6,8 @@
 <body id="nofront" class="index">
 
 {% include nav_nofront.html %}
-
-<section class="bg-white post">
+<div class="home">
+<div class="bg-white post">
 
     <div class="entry">
 
@@ -50,10 +50,11 @@
         </p>
 
         <hr>
-
+        
         {% include comments.html %}
         {% if page.comments and site.duoshuo_username %}
-        <section id="disqus_thread" class="animated fadeInUp">
+        <h2 id="comments">Comments</h2>
+        <div id="disqus_thread" class="animated fadeInUp">
           <div class="comment">
               <div class="ds-thread"
                   data-thread-key="{{page.id}}"
@@ -61,15 +62,36 @@
                   data-url="{{site.url}}{{site.baseurl}}{{page.url}}" >
               </div>
           </div>
-        </section>
+        </div>
                        <!-- /#duoshuo_thread -->
         {% endif %}
     </div>
+    <button class="anchor"><i class="fa fa-anchor"></i></button>
+    <div class="right">
+        <div class="wrap">
 
-</section>
+            <!-- Content -->
+            <div class="side content">
+                <div>
+                    Content
+                </div>
+                <ul id="content-side" class="content-ul">
+                    {% if page.comments and site.duoshuo_username %}
+                    <li><a href="#comments">Comments</a></li>
+                    {% endif %}
+                </ul>
+            </div>
+            <!-- 其他div框放到这里 -->
+            <!-- <div class="side">bbbb</div> -->
+        </div>
+    </div>
+
+    </div>
+    </div>
+  
 {% if site.duoshuo_share && site.duoshuo_username %}
 <!-- 多说 Share start -->
-</style>
+
     <div class="ds-share"
          style="text-align: right"
          data-thread-key="{{page.id}}"blog.html  data-title="{{page.title}}"
@@ -94,7 +116,9 @@
 
 {% include rss_footer.html %}
 {% include footer.html %}
+    <script src="{{ "/js/pageContent.js" | prepend: site.baseurl }}"></script>
 {% include js.html %}
+    {% include backToTop.html %}
 
 </body>
 </html>

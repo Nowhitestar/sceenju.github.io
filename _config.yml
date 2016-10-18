@@ -1,4 +1,4 @@
-url: http://sceenju.github.io
+url: http://0.0.0.0:4000/
 baseurl:
 # Site settings
 title: NJU | 袁增伟教授课题组
@@ -7,10 +7,12 @@ description: "欢迎来到袁增伟教授课题组，我们专注于物质循环
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 5d9940
+  primary: 1a6a4c
   secondary: 568c3b
-  secondary-dark: 333
-
+  secondary-dark: 111
+  navheader-color: 1a6a4c
+  navbar-color: f7f7f7
+  labname-color: f2ecde
 # duoshuo
 duoshuo_username:   sceenju
 duoshuo_share:      false
@@ -36,40 +38,6 @@ people:
     - title: link
       url: #
 
-- name: 华新
-  pic: hx
-  position: 讲师
-  social:
-    - title: link
-      url: #
-    - title: twitter
-      url: #
-
-- name: 庞爱萍
-  pic: pap
-  position: 助理研究员
-  social:
-    - title: twitter
-      url: #
-
-- name: 陈清清
-  pic: cqq
-  position: 博士后
-  social:
-    - title: linkedin
-      url: #
-
-- name: 蒋松演
-  pic: jsy
-  position: 博士生
-  social:
-    - title: twitter
-      url: #
-    - title: github
-      url: #
-    - title: linkedin
-      url: #
-
 - name: 张优
   pic: zy
   position: 博士生
@@ -81,100 +49,6 @@ people:
     - title: link
       url: #
 
-- name: 刘雪薇
-  pic: lxw
-  position: 博士生
-  social:
-    - title: linkedin
-      url: #
-
-- name: 庄裕杰
-  pic: zyj
-  position: 博士生
-  social:
-    - title: linkedin
-      url: #
-
-- name: 吴应林
-  pic: wyl
-  position: (<a href="http://www.stu.edu.cn/">汕头大学</a>)联合培养博士
-  social:
-    - title: linkedin
-      url: #
-
-- name: 潘笑
-  pic: px
-  position: 研究生
-  social:
-    - title: linkedin
-      url: #
-
-- name: 王婷
-  pic: wt
-  position: 研究生
-  social:
-    - title: linkedin
-      url: #
-
-- name: 王蕾
-  pic: wl
-  position: 研究生
-  social:
-    - title: linkedin
-      url: #
-
-- name: 季佳莹
-  pic: jjy
-  position: 研究生
-  social:
-    - title: linkedin
-      url: #
-
-- name: 陈颖
-  pic: cy
-  position: 研究生
-  social:
-    - title: linkedin
-      url: #
-
-- name: 罗涛
-  pic: lt
-  position: 研究生
-  social:
-    - title: linkedin
-      url: #
-
-- name: 左璇
-  pic: zx
-  position: 研究生
-  social:
-    - title: linkedin
-      url: #
-
-- name: 花慧
-  pic: hh
-  position: 研究生
-  social:
-    - title: linkedin
-      url: #
-
-- name: 廖宇星
-  pic: lyx
-  position: 本科生
-  social:
-    - title: github
-      url: https://github.com/vvstars
-    - title: facebook
-      url: #
-    - title: link
-      url: http://liaoyuxing.space
-
-- name: 李兴祥
-  pic: lxx
-  position: 本科生
-  social:
-    - title: linkedin
-      url: #
 
 
 

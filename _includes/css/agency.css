@@ -126,7 +126,7 @@ fieldset[disabled] .btn-primary.active {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
-    color: #fff;
+    color: #{{ site.color.labname-color }};
     background-color: #{{ site.color.primary }};
 }
 
@@ -254,7 +254,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #eeeeee;
+        background-color: #{{ site.color.navbar-color }};
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -322,7 +322,7 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0;
+    padding: 75px 0;
 }
 
 section h2.section-heading {
@@ -348,6 +348,7 @@ section h3.section-subheading {
 
 .service-heading {
     margin: 15px 0;
+    text-align: center;
     text-transform: none;
 }
 
@@ -862,3 +863,54 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.color.primary }};
 }
+.imageRotation{
+	height:300px;
+	width:570px;
+	overflow:hidden;  /*--超出容器的所有元素都不可见--*/
+	position:relative;  /*--相对定位--*/
+	border:10px solid #fff;
+	background-color:#fff;
+	
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	}
+
+.imageBox{
+	position:absolute;  /*--固定定位--*/
+	height:270px;
+	top:0px;
+	left:0px;
+	overflow:hidden;
+	}
+.imageBox img {
+	display:block;
+	height:270px;
+	width:550px;
+	float:left;
+	border:none;
+    border-radius:10%;
+	}
+
+.icoBox{
+	position:absolute;  /*--固定定位--*/
+	bottom:4px;
+	left:247px;
+	width:76px;
+	height:12px;
+	text-align:center;
+	line-height:40px;
+	}
+.icoBox span{
+	display:block;
+	float:left;
+	height:12px;
+	width:12px;
+	margin-left:3px;
+	overflow:hidden;
+	background:url("img/imgrotation/ico.png") 0px 0px no-repeat;
+	cursor:pointer;
+	}
+.icoBox span.active {
+	background-position:0px -12px;
+	cursor:default;
+	}
