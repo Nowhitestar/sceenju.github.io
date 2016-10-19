@@ -866,7 +866,8 @@ body {
 }
 .imageRotation{
 	height:300px;
-	width:570px;
+    width: 80%;
+	max-width:570px;
 	overflow:hidden;  /*--超出容器的所有元素都不可见--*/
 	position:relative;  /*--相对定位--*/
 	border:10px solid #fff;
@@ -886,10 +887,10 @@ body {
 .imageBox img {
 	display:block;
 	height:270px;
-	width:550px;
+    width: 80%;
+	max-width:550px;
 	float:left;
 	border:none;
-    border-radius:10%;
 	}
 
 .icoBox{

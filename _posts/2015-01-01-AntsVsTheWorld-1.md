@@ -11,9 +11,13 @@ published: true
 
 ---
 
+* content
+{:toc}
+
 *Who doesn't like ants? And who doesn't like a good action movie? [\#AntsVsTheWorld](/category/antsvstheworld/) brings the best of both worlds together. by featuring videos of ants fighting other creatures (including other ants).*
 
 ---
+
 
 #### Episode 1: Jumping Jack Ants vs. Huntsman Spider
 

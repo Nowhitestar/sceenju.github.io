@@ -12,6 +12,9 @@ published: true
 comments: ture
 ---
 
+* content
+{:toc}
+
 **Text by:** Simon Garnier ([www.theswarmlab.com](http://www.theswarmlab.com) / [@sjmgarnier](http://twitter.com/sjmgarnier))
 
 **R code by:** Simon Garnier ([www.theswarmlab.com](http://www.theswarmlab.com) / [@sjmgarnier](http://twitter.com/sjmgarnier))
@@ -21,6 +24,8 @@ comments: ture
 Document generated with [RStudio](http://www.rstudio.com), [knitr](http://yihui.name/knitr/), and [pandoc](http://johnmacfarlane.net/pandoc/). Python figures generated with [iPython Notebook](http://ipython.org/notebook.html).
 
 ___
+
+
 
 #### Foreword ####
 

@@ -7,8 +7,8 @@ description: "欢迎来到袁增伟教授课题组，我们专注于物质循环
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 1a6a4c
-  secondary: 568c3b
+  primary: 1a8a4c
+  secondary: 1aaa4c
   secondary-dark: 111
   navheader-color: 1a6a4c
   navbar-color: f7f7f7
@@ -16,58 +16,6 @@ color:
 # duoshuo
 duoshuo_username:   sceenju
 duoshuo_share:      false
-# Team names, titles and social links
-people:
-- name: 袁增伟
-  pic: yzw
-  position: 博士、教授、博士生导师
-  social:
-    - title: twitter
-      url: #
-    - title: google-plus
-      url: #
-    - title: github
-      url: #
-    - title: linkedin
-      url: #
-
-- name: 盛虎
-  pic: sh
-  position: 副研究员
-  social:
-    - title: link
-      url: #
-
-- name: 张优
-  pic: zy
-  position: 博士生
-  social:
-    - title: twitter
-      url: #
-    - title: tumblr
-      url: #
-    - title: link
-      url: #
-
-
-
-
-#毕业成员
-people_old:
-- name: 刘欣
-  pic: lx
-  position: 博士毕业生
-  social:
-    - title: twitter
-      url: #
-    - title: link
-      url: #
-- name: 张子瑞
-  pic: zzr
-  position: 本科生
-  social:
-    - title: linkedin
-      url: #
 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
