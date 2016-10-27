@@ -1,0 +1,22 @@
+current directory: /home/luise/桌面/sceenju.github.io/vendor/bundle/ruby/2.3.0/gems/posix-spawn-0.3.11/ext
+/usr/local/rvm/rubies/ruby-2.3.0/bin/ruby -r ./siteconf20161026-7103-1nhhqri.rb extconf.rb
+creating Makefile
+
+current directory: /home/luise/桌面/sceenju.github.io/vendor/bundle/ruby/2.3.0/gems/posix-spawn-0.3.11/ext
+make "DESTDIR=" clean
+
+current directory: /home/luise/桌面/sceenju.github.io/vendor/bundle/ruby/2.3.0/gems/posix-spawn-0.3.11/ext
+make "DESTDIR="
+compiling posix-spawn.c
+posix-spawn.c: In function ‘rb_posixspawn_pspawn’:
+posix-spawn.c:350:2: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  long argc = RARRAY_LEN(argv);
+  ^
+posix-spawn.c:390:4: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+    char **new_env = calloc(size+RHASH_SIZE(env)+1, sizeof(char*));
+    ^
+linking shared-object posix_spawn_ext.so
+
+current directory: /home/luise/桌面/sceenju.github.io/vendor/bundle/ruby/2.3.0/gems/posix-spawn-0.3.11/ext
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 posix_spawn_ext.so ./.gem.20161026-7103-1l59e3e

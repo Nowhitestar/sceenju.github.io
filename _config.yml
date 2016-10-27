@@ -1,4 +1,4 @@
-url: https://sceenju.github.io
+url: http://0.0.0.0:4000 #
 baseurl:
 # Site settings
 title: NJU | 袁增伟教授课题组
@@ -17,6 +17,24 @@ color:
 duoshuo_username:   sceenju
 duoshuo_share:      false
 
+#重要事件
+pic:
+  - title1: Slide 1 Title
+    subtitle1: "这是第一个描述"
+    url1: #
+    img1: img/img-1.jpg
+  - title2: Slide 2 Title
+    subtitle2: "这是第二个描述"
+    url2: #
+    img2: img/img-2.jpg
+  - title3: Slide 3 Title
+    subtitle3: "这是第三个描述"
+    url3: #
+    img3: img/img-3.jpg
+  - title4: Slide 4 Title
+    subtitle4: "这是第四个描述"
+    url4: #
+    img4: img/img-4.jpg
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -40,3 +58,8 @@ permalink: pretty
 kramdown:
   syntax_highlighter: rouge
 highlighter: rouge
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor

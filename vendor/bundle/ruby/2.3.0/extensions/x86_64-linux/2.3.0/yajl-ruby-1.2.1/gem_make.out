@@ -1,0 +1,27 @@
+current directory: /home/luise/桌面/sceenju.github.io/vendor/bundle/ruby/2.3.0/gems/yajl-ruby-1.2.1/ext/yajl
+/usr/local/rvm/rubies/ruby-2.3.0/bin/ruby -r ./siteconf20161026-7103-1y801qu.rb extconf.rb
+creating Makefile
+
+current directory: /home/luise/桌面/sceenju.github.io/vendor/bundle/ruby/2.3.0/gems/yajl-ruby-1.2.1/ext/yajl
+make "DESTDIR=" clean
+
+current directory: /home/luise/桌面/sceenju.github.io/vendor/bundle/ruby/2.3.0/gems/yajl-ruby-1.2.1/ext/yajl
+make "DESTDIR="
+compiling yajl.c
+compiling yajl_alloc.c
+compiling yajl_buf.c
+compiling yajl_encode.c
+compiling yajl_ext.c
+yajl_ext.c: In function ‘rb_yajl_parser_parse’:
+yajl_ext.c:471:17: warning: variable ‘stat’ set but not used [-Wunused-but-set-variable]
+     yajl_status stat;
+                 ^
+compiling yajl_gen.c
+compiling yajl_lex.c
+compiling yajl_parser.c
+compiling yajl_version.c
+linking shared-object yajl/yajl.so
+
+current directory: /home/luise/桌面/sceenju.github.io/vendor/bundle/ruby/2.3.0/gems/yajl-ruby-1.2.1/ext/yajl
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 yajl.so ./.gem.20161026-7103-ip5bt2/yajl

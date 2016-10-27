@@ -2,7 +2,7 @@
 <html>
 
 {% include head.html %}
-
+<link rel="stylesheet"  href="{{ "/css/md.css" | prepend: site.baseurl }}" >
 <body id="nofront" class="index">
 
 {% include nav_nofront.html %}
@@ -50,7 +50,7 @@
         </p>
 
         <hr>
-        
+
         {% include comments.html %}
         {% if page.comments and site.duoshuo_username %}
         <h2 id="comments">Comments</h2>
@@ -90,7 +90,7 @@
 
     </section>
     </div>
-  
+
 {% if site.duoshuo_share && site.duoshuo_username %}
 <!-- 多说 Share start -->
 
@@ -120,7 +120,6 @@
 {% include footer.html %}
     <script src="{{ "/js/pageContent.js" | prepend: site.baseurl }}"></script>
 {% include js.html %}
-    {% include backToTop.html %}
 
 </body>
 </html>
